@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".oneAPIcall.OneActivity"
+    android:id="@+id/idParent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    >
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/idEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:text="eve.holt@reqres.in"
+        android:textColorHint="#000000"
+        android:textColor="#000000"
+        android:inputType="textEmailAddress"
+        android:maxLines="1"
+        />
+
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/idPassword"
+        android:layout_marginTop="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:text="cityslicka"
+        android:textColorHint="#000000"
+        android:textColor="#000000"
+        android:inputType="textPassword"
+        android:maxLines="1"
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:text="Login"
+        android:id="@+id/idLogin"
+        />
+
+</LinearLayout>
